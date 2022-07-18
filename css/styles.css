@@ -145,6 +145,17 @@ h4, .h4 {
   }
 }
 
+.map {
+  height: 30rem;
+}
+
+.map iframe {
+  pointer-events: none;
+  height: 100%;
+  width: 100%;
+  border: 0;
+}
+
 h5, .h5 {
   font-size: 1.25rem;
 }
@@ -2142,6 +2153,10 @@ progress {
   .table-responsive-lg {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+  }
+
+  .map {
+    height: 75%;
   }
 }
 @media (max-width: 1199.98px) {
