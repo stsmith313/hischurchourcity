@@ -70,6 +70,18 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Subheading";
+  src: url("../css/Fonts/anonymous_pro-webfont.woff");
+  src: url("../css/Fonts/anonymous_pro-webfont.woff2");
+}
+
+@font-face {
+  font-family: "Heading";
+  src: url("../css/Fonts/montserrat-bold-webfont.woff");
+  src: url("../css/Fonts/montserrat-bold-webfont.woff2");
+}
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -11436,14 +11448,14 @@ header.masthead .masthead-subheading {
   font-size: 3rem;
   line-height: 1.5rem;
   margin-bottom: 25px;
-  font-family: "Montserrat", Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Subheading";
 }
 header.masthead .masthead-heading {
   font-size: 4.5rem;
   font-weight: 700;
   line-height: 4.5rem;
   margin-bottom: 2rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Heading";
 }
 
 @media (min-width: 768px) {
