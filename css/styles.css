@@ -365,12 +365,21 @@ png {
   height: 30rem;
 }
 
+@media (max-width: 820px) {
+
+  img,
+  png {
+    vertical-align: middle;
+    height: 25rem;
+  }
+}
+
 @media (max-width: 768px) {
 
   img,
   png {
     vertical-align: middle;
-    height: 10rem;
+    height: 9rem;
   }
 }
 
