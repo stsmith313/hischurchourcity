@@ -321,11 +321,6 @@ figure {
 }
 
 img,
-svg {
-  vertical-align: middle;
-}
-
-img,
 png {
   vertical-align: middle;
   height: 30rem;
