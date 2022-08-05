@@ -323,10 +323,10 @@ figure {
 img,
 png {
   vertical-align: middle;
-  height: 10rem;
+  height: 30rem;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   img,
   png {
   vertical-align: middle;
